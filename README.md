@@ -2,6 +2,7 @@
 
 A ROS2 package that moves a TurtleBot through a mapped environment using Nav2 waypoint navigation and uses a live camera feed to watch for a specific coloured target. On detecting it, the robot cancels its current navigation goal, switches to closed-loop visual servoing to approach and centre the target, then stops at a safe distance.
 
+https://github.com/user-attachments/assets/2223e6a4-24c7-4d59-b547-88a101a39be2 
 
 ## What this demonstrates
 
