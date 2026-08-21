@@ -13,10 +13,10 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='cscajb',
-    maintainer_email='x.wang16@leeds.ac.uk',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    maintainer='Emmanuel Owoade',
+    maintainer_email='eowoade05@gmail.com',
+    description='ROS2/Nav2 TurtleBot package: colour-based object detection - an autonomous navigation project that patrols waypoints and reacts to a detected colour target.',
+    license='MIT',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
@@ -24,6 +24,7 @@ setup(
             'second_step = ros2_project_el23eo.second_step:main',
             'third_step = ros2_project_el23eo.third_step:main',
             'fourth_step = ros2_project_el23eo.fourth_step:main',
+            'project_code = ros2_project_el23eo.project_code:main',
         ],
     },
 )

@@ -3,9 +3,9 @@
 <package format="3">
   <name>ros2_project_el23eo</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="x.wang16@leeds.ac.uk">cscajb</maintainer>
-  <license>TODO: License declaration</license>
+  <description>ROS2/Nav2 TurtleBot package: colour-based object detection - an autonomous navigation project that patrols waypoints and reacts to a detected colour target.</description>
+  <maintainer email="eowoade05@gmail.com">Emmanuel Owoade</maintainer>
+  <license>MIT</license>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
